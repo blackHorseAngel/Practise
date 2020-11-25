@@ -12,8 +12,8 @@ public class ServiceTest {
      * @Description 
      * @Author zhangshenming
      * @Date 9:37 2020/11/17
-     * @param []
-     * @return void
+     * @parameter
+     * @Return
      */
     synchronized public  void service1(){
         System.out.println("service1");
@@ -23,7 +23,7 @@ public class ServiceTest {
      * @Description 
      * @Author zhangshenming
      * @Date 2020/11/17  9:40
-     * @param []
+     * @parameter
      * @return void
      */
     synchronized public void service2() {
@@ -33,8 +33,9 @@ public class ServiceTest {
     /**
      * @Description 
      * @Author zhangshenming
+     *:
      * @Date 2020/11/17  9:48
-     * @param []
+     * @parameter
      * @return void
      */
     synchronized public void service3() {
