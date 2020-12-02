@@ -8,6 +8,15 @@ package org.practise.thread.synchronize;
  * @See
  */
 public class TestService1 {
+    /***
+     *@description
+     *@author zhangshenming
+     *@param obj
+     *@date 2020/12/2 12:29
+     *@return void
+     *@throws
+
+     */
     public void testMethod1(Object obj){
         synchronized (obj){
             System.out.println("testMethod1----getLock---time:"+System.currentTimeMillis()+",threadName:"+Thread.currentThread().getName());
